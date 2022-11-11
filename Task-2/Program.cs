@@ -6,14 +6,14 @@
 
 
 Console.Write("Введите число №1: ");
-int a = Convert.ToInt32(Console.ReadLine());
+int number_1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число №2: ");
-int b = Convert.ToInt32(Console.ReadLine());
+int number_2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число №3: ");
-int c = Convert.ToInt32(Console.ReadLine());
-int max = a;
+int number_3 = Convert.ToInt32(Console.ReadLine());
+int max = number_1;
 
-if (b > a) max = b;
-if (c > max) max = c;
+if (number_2 > number_1) max = number_2;
+if (number_3 > max) max = number_3;
 
 Console.WriteLine($"Максимальное число из 3-х: {max}");
