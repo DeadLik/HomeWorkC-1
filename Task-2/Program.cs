@@ -16,4 +16,4 @@ int max = a;
 if (b > a) max = b;
 if (c > max) max = c;
 
-Console.WriteLine(max);
+Console.WriteLine($"Максимальное число из 3-х: {max}");
